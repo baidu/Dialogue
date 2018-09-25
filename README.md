@@ -6,7 +6,13 @@
   Together we built the largest Chinese Human-Computer conversation systems and support many businesses such as Duer, the largest Chatbot in China, our life-long learning system interacts with hundreds of millions of Chinese users every day and learns through imitation/user-feedback, distilling knowledge from the conversation and learning to be smarter day and day.
   
   We will progressively release some source code of our previous work, to make some small contribution to the whole community of human-computer conversation.
-  
+ 
+# Publication
+
+> + Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network. *ACL 2018, Full Paper*
+> + Multi-View Response Selection for Human-Computer Conversation. *EMNLP 2016, Full Paper*
+> + Shall I be Your Chat Companion towards an Online Human-Computer Conversation System. *CIKM 2016, Full Paper*
+ 
 # Our Members (2018/06)
 <div align=center>
 <img src="other/ld.jpg" width=800>
