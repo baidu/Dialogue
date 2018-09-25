@@ -5,5 +5,5 @@
 
 # Our Members (2018/06)
 <div align=center>
-<img src="other/ld.png" width=800>
+<img src="other/ld.jpg" width=800>
 </div>
