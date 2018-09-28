@@ -9,9 +9,9 @@
  
 # Publication
 
-> + Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network. *ACL 2018, Full Paper*
-> + Multi-View Response Selection for Human-Computer Conversation. *EMNLP 2016, Full Paper*
-> + Shall I be Your Chat Companion towards an Online Human-Computer Conversation System. *CIKM 2016, Full Paper*
+> + [Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network](http://aclweb.org/anthology/P18-1103). *ACL 2018, Full Paper*
+> + [Multi-View Response Selection for Human-Computer Conversation](http://www.aclweb.org/anthology/D16-1036). *EMNLP 2016, Full Paper*
+> + [Shall I be Your Chat Companion towards an Online Human-Computer Conversation System](http://research.baidu.com/Public/uploads/5acc2a6723f1d.pdf). *CIKM 2016, Full Paper*
  
 # Our Members (2018/06)
 <div align=center>
