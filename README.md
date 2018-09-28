@@ -5,7 +5,7 @@
   
   Together we built the largest Chinese Human-Computer conversation systems and support many businesses such as Duer, the largest Chatbot in China, our life-long learning system interacts with hundreds of millions of Chinese users every day and learns through imitation/user-feedback, distilling knowledge from the conversation and learning to be smarter day and day.
   
-  We will progressively release some source code of our previous work, to make some small contribution to the whole community of human-computer conversation.
+  We will release some source code of our previous work in the future, to make some small contribution to the whole community of human-computer conversation.
  
 # Publication
 
