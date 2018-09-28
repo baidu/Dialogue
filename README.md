@@ -14,7 +14,7 @@
 > + [Shall I be Your Chat Companion towards an Online Human-Computer Conversation System](http://research.baidu.com/Public/uploads/5acc2a6723f1d.pdf). *CIKM 2016, Full Paper*
  
 # Connected to our Chatbot Service
-  Any Chinese developers can enable their own smart devices to talk with customers on open-domain topics by using our open chatbot service. Please find the usage manual at http://ai.baidu.com/forum/topic/show/497679(in Chinese).
+  Any Chinese developers can enable their own smart devices to talk with customers on open-domain topics by using our open chatbot service. Please find the usage manual at http://ai.baidu.com/forum/topic/show/497679 (in Chinese).
  
 # Our Members (2018/06)
 <div align=center>
