@@ -13,6 +13,9 @@
 > + [Multi-View Response Selection for Human-Computer Conversation](http://www.aclweb.org/anthology/D16-1036). *EMNLP 2016, Full Paper*
 > + [Shall I be Your Chat Companion towards an Online Human-Computer Conversation System](http://research.baidu.com/Public/uploads/5acc2a6723f1d.pdf). *CIKM 2016, Full Paper*
  
+# Connected to our Chatbot Service
+  Any Chinese developers can enable their own smart devices to talk with customers on open-domain topics by using our open chatbot service. Please find the usage manual at http://ai.baidu.com/unit.
+ 
 # Our Members (2018/06)
 <div align=center>
 <img src="other/ld.jpg" width=800>
