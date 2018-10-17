@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Baidu NLP Learning-to-Dialogue team
   The Learning-to-Dialogue(LD) team, at Baidu NLP, is a group of engineers and researchers who truly trust in technology and work together to accelerate the development of open-domain dialogues. 
   
