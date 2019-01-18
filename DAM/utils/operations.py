@@ -93,7 +93,7 @@ def dot_sim(x, y, is_nor=True):
         scale = tf.maximum(1.0, scale)
         return sim / scale
     else:
-        return result
+        return sim
 
 def layer_norm(x, axis=None, epsilon=1e-6):
     '''Add layer normalization.
