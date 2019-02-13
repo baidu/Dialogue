@@ -121,7 +121,7 @@ def build_batches(data, conf, turn_cut_type='tail', term_cut_type='tail'):
 
     _label_batches = []
 
-    batch_len = len(data['y'])/conf['batch_size']
+    batch_len = int(len(data['y'])/conf['batch_size'])
     for batch_index in range(batch_len):
         _turns, _tt_turns_len, _every_turn_len, _response, _response_len, _label = build_one_batch(data, batch_index, conf, turn_cut_type='tail', term_cut_type='tail')
 
