@@ -28,7 +28,7 @@ def evaluate(file_path):
 	p_at_2_in_10 = 0.0
 	p_at_5_in_10 = 0.0
 
-        length = len(data)/10
+        length = int(len(data)/10)
 
 	for i in xrange(0, length):
 		ind = i * 10
