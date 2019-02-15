@@ -35,8 +35,8 @@ def train(conf, _model):
     val_batch_num = len(val_batches["response"])
 
     conf["train_steps"] = conf["num_scan_data"] * batch_num
-    conf["save_step"] = max(1, batch_num / 10)
-    conf["print_step"] = max(1, batch_num / 100)
+    conf["save_step"] = int(max(1, batch_num / 10))
+    conf["print_step"] = int(max(1, batch_num / 100))
 
     print('configurations: %s' %conf)
 
