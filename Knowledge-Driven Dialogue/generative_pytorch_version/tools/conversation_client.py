@@ -12,7 +12,7 @@
 import sys
 import socket
 
-SERVER_IP = "10.255.87.11"
+SERVER_IP = "127.0.0.1"
 SERVER_PORT = 8601
 
 def conversation_client(text):

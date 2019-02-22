@@ -16,7 +16,7 @@ from tools.conversation_strategy import load
 from tools.conversation_strategy import predict
  
 
-SERVER_IP = "10.255.87.11"
+SERVER_IP = "127.0.0.1"
 SERVER_PORT = 8601
 
 print("starting conversation server ...")
