@@ -1,5 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# We are hiring, the internship is available now.
+  Send your resume to zhouxiangyang@baidu.com, get the opportunity of the best NLP working experience in China. 
+
 # Baidu NLP Dialogue team
   The dialogue team, at Baidu NLP, is a group of engineers and researchers who truly trust in technology and work together to accelerate the development of open-domain dialogues.
   
