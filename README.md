@@ -18,7 +18,7 @@
 # Connected to our Chatbot Service
   Any Chinese developers can enable their own smart devices to talk with customers on open-domain topics by using our open chatbot service. Please find the usage manual at http://ai.baidu.com/forum/topic/show/497679 (in Chinese).
  
-# Our Members (2018/06)
+# Our Members (part) (2018/06)
 <div align=center>
 <img src="other/ld.jpg" width=800>
 </div>
