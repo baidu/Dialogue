@@ -2,7 +2,7 @@
 
 ## Motivation
 
-In real-world applicatiobn, the dialogue technology usually needs to deal with thousands of different scenarios of conversation. In most case, AI developers have to build that conversational agent from from scratch. 
+In real-world application, the dialogue technology usually needs to deal with thousands of different scenarios of conversation. In most case, AI developers have to build that conversational agent from from scratch. 
 
 We believe the nature of diversity in the dialogue system application has became the major limitation to the development of dialogue systems. Hence, we set up a new project: **the Opendialog**. Instead of designing specific model for specific dialogue task, we want to find a unified neural dialogue structure, which is:
 
