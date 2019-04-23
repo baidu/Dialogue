@@ -1,7 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# We are hiring, the internship is available now.
-  Send your resume to zhouxiangyang@baidu.com, get the opportunity of the best NLP working experience in China. 
+# New record in context-response matching is released!!! [new]
+  The best score of R_10 at 1 in Ubuntu Corpus is now improved to 82%+.
+  
+  We investigate using BERT for general-purposed dialogue understanding and our empirical results show that BERT with good fine-tuning can achieve very strong performances for most existing dialogue tasks (including the context-response matching task). Details can be found at https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/dialogue_model_toolkit (in the dialogue general understanding folder). 
+
 
 # Baidu NLP Dialogue team
   The dialogue team, at Baidu NLP, is a group of engineers and researchers who truly trust in technology and work together to accelerate the development of open-domain dialogues.
