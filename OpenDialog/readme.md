@@ -1,5 +1,7 @@
 # The OpenDialog
 
+Please get the source code and detialed description from https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/dialogue_model_toolkit.
+
 ## Motivation
 
 In real-world application, the dialogue technology usually needs to deal with thousands of different scenarios of conversation. In most case, AI developers have to build that conversational agent from from scratch. 
