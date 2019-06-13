@@ -1,5 +1,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# __New Record__
+
+We got the new, best score of R_10 at 1 (85.67%) in the Ubuntu Corpus by incorporating ERNIE_English, an English pre-trained model from Baidu. Please refer to DMTK (the Dialogue Modeling ToolKit) for more details. https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/dialogue_model_toolkit
+
+
+
 # __Deep Attention Matching Network__
 
 This is the source code of Deep Attention Matching network (DAM), that is proposed for multi-turn response selection in the retrieval-based chatbot.
