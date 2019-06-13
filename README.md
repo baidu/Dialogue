@@ -4,12 +4,6 @@
   We got the new, best score of R_10 at 1 (**85.67%**) in the Ubuntu Corpus by incorporating ERNIE_English, an English pre-trained model from Baidu. 
   Please refer to DMTK (the Dialogue Modeling ToolKit) for more details.
   https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/dialogue_model_toolkit
-  
-
-# New record in context-response matching is released
-  The best score of R_10 at 1 in Ubuntu Corpus is now improved to 82%+.
-  
-  We investigate using BERT for general-purposed dialogue understanding and our empirical results show that BERT with good fine-tuning can achieve very strong performances for most existing dialogue tasks (including the context-response matching task). Details can be found at https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/dialogue_model_toolkit (in the dialogue general understanding folder). 
 
 
 # Baidu NLP Dialogue team
