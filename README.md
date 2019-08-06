@@ -16,7 +16,7 @@
   We will release some source code of our previous work in the future, to make some small contribution to the whole community of human-computer conversation.
  
 # Publication
-> + [Proactive Human-Machine Conversation with Explicit Dialogue Goal](https://arxiv.org/abs/1906.05572). *ACL 2019, Full Paper, poster*
+> + [Proactive Human-Machine Conversation with Explicit Conversation Goals](https://arxiv.org/abs/1906.05572). *ACL 2019, Full Paper, poster*
 > + [Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network](http://aclweb.org/anthology/P18-1103). *ACL 2018, Full Paper, oral*
 > + [Multi-View Response Selection for Human-Computer Conversation](http://www.aclweb.org/anthology/D16-1036). *EMNLP 2016, Full Paper, poster*
 > + [Shall I be Your Chat Companion towards an Online Human-Computer Conversation System](http://research.baidu.com/Public/uploads/5acc2a6723f1d.pdf). *CIKM 2016, Full Paper, oral*
