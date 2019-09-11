@@ -31,7 +31,7 @@ def train(conf, _model):
     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 
     # refine conf
-    batch_num = len(train_data['y']) / conf["batch_size"]
+    batch_num = int(len(train_data['y']) / conf["batch_size"])
     val_batch_num = len(val_batches["response"])
 
     conf["train_steps"] = conf["num_scan_data"] * batch_num
