@@ -3,7 +3,7 @@
 # New record is achieved by ERNIE_English (2019/06/13)
   We got the new, best score of R_10 at 1 (**85.67%**) in the Ubuntu Corpus by incorporating ERNIE_English, an English pre-trained model from Baidu. 
   Please refer to DMTK (the Dialogue Modeling ToolKit) for more details.
-  https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/dialogue_model_toolkit
+  https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/PaddleDialogue
 
 
 # Baidu NLP Dialogue team
