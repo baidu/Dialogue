@@ -31,7 +31,7 @@
 
 ```
 git clone https://github.com/PaddlePaddle/models.git
-cd models/PaddleNLP/PaddleDialogue/dialogue_general_understanding
+cd Dialogue/dgu
 ```
 
 ### 任务简介
