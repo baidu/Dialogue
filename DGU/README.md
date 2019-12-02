@@ -60,10 +60,18 @@ SWDA：Switchboard Dialogue Act Corpus;
 ```
 
 &ensp;&ensp;&ensp;&ensp;数据集、相关模型下载：
+
 &ensp;&ensp;&ensp;&ensp;linux环境下：
-```
+
+```shell
 python dgu/prepare_data_and_model.py 
 ```
+
+&ensp;&ensp;&ensp;&ensp;windows环境下：
+```shell
+python dgu\prepare_data_and_model.py
+```
+
 &ensp;&ensp;&ensp;&ensp;数据路径：data/input/data
 
 &ensp;&ensp;&ensp;&ensp;预训练模型路径：data/pretrain_model
@@ -77,9 +85,10 @@ python dgu\prepare_data_and_model.py
 
 &ensp;&ensp;&ensp;&ensp;下载的数据集中已提供了训练集，测试集和验证集，用户如果需要重新生成某任务数据集的训练数据，可执行：
 
-```
+```shell
 linux环境下：
 cd dgu/scripts && python run_build_data.py task_name
+
 windows环境下：
 cd dgu\scripts && python run_build_data.py task_name
 
