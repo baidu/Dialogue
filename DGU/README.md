@@ -78,12 +78,8 @@ python dgu\prepare_data_and_model.py
 
 &ensp;&ensp;&ensp;&ensp;已训练模型路径：data/saved_models/trained_models
 
-&ensp;&ensp;&ensp;&ensp;windows环境下：
-```
-python dgu\prepare_data_and_model.py 
-```
 
-&ensp;&ensp;&ensp;&ensp;下载的数据集中已提供了训练集，测试集和验证集，用户如果需要重新生成某任务数据集的训练数据，可执行：
+&ensp;&ensp;&ensp;&ensp;下载的数据集中已提供了训练集、测试集和验证集，用户如果需要重新生成某任务数据集的训练数据，可执行：
 
 ```shell
 linux环境下：
