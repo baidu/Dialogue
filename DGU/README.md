@@ -19,45 +19,45 @@
 
 ### 安装说明
 
-#### &ensp;&ensp;a、环境依赖
+#### &ensp;&ensp;a. 环境依赖
 - Python >= 2.7
 - cuda >= 9.0
 - cudnn >= 7.0
 - PaddlePaddle >= 1.6.0，请参考[安装指南](http://www.paddlepaddle.org/#quick-start)进行安装, 由于模块内模型基于bert做finetuning, 训练速度较慢, 建议用户安装GPU版本PaddlePaddle进行训练。
 
-#### &ensp;&ensp;b、下载代码
+#### &ensp;&ensp;b. 下载代码
 
-&ensp;&ensp;&ensp;&ensp;克隆代码库到本地
+&ensp;&ensp;&ensp;&ensp;克隆代码库到本地：
 
 ```
 git clone https://github.com/baidu/Dialogue.git
-cd Dialogue/dgu
+cd Dialogue/DGU
 ```
 
 ### 任务简介
 &ensp;&ensp;&ensp;&ensp;本模块内共包含6个任务，内容如下：
 
-```
-udc: 使用Ubuntu Corpus V1公开数据集，实现对话匹配任务;
-atis_slot: 使用微软提供的公开数据集(Airline Travel Information System)，实现槽位识别任务；
-dstc2: 使用对话状态跟踪挑战（Dialog State Tracking Challenge）2公开数据集，实现对话状态追踪（DST）任务;
-atis_intent: 使用微软提供的公开数据集(Airline Travel Information System)，实现意图识别任务；
-mrda: 使用公开数据集Meeting Recorder Dialogue Act，实现DA识别任务;
-swda：使用公开数据集Switchboard Dialogue Act Corpus，实现DA识别任务;
-```
 
-注意: 目前dgu模块内提供的训练好的官方模型及效果, 均是在GPU单卡上面训练和预测得到的, 用户如需复现效果, 可使用单卡相同的配置.
+- udc: 使用Ubuntu Corpus V1公开数据集，实现对话匹配任务;
+- atis_slot: 使用微软提供的公开数据集(Airline Travel Information System)，实现槽位识别任务；
+- dstc2: 使用对话状态跟踪挑战（Dialog State Tracking Challenge）2公开数据集，实现对话状态追踪（DST）任务;
+- atis_intent: 使用微软提供的公开数据集(Airline Travel Information System)，实现意图识别任务；
+- mrda: 使用公开数据集Meeting Recorder Dialogue Act，实现DA识别任务;
+- swda：使用公开数据集Switchboard Dialogue Act Corpus，实现DA识别任务;
+
+
+注意: 目前dgu模块内提供的训练好的官方模型及效果, 均是在GPU单卡上面训练和预测得到的, 用户如需复现效果, 可使用单卡相同的配置。
 
 ### 数据准备
 &ensp;&ensp;&ensp;&ensp;数据集说明：
 
-```
-UDC: Ubuntu Corpus V1;
-ATIS: 微软提供的公开数据集(Airline Travel Information System)，模块内包含意图识别和槽位解析两个任务的数据;
-DSTC2: 对话状态跟踪挑战（Dialog State Tracking Challenge）2;
-MRDA: Meeting Recorder Dialogue Act;
-SWDA：Switchboard Dialogue Act Corpus;
-```
+
+- UDC: Ubuntu Corpus V1;
+- ATIS: 微软提供的公开数据集(Airline Travel Information System)，模块内包含意图识别和槽位解析两个任务的数据;
+- DSTC2: 对话状态跟踪挑战（Dialog State Tracking Challenge）2;
+- MRDA: Meeting Recorder Dialogue Act;
+- SWDA：Switchboard Dialogue Act Corpus;
+
 
 &ensp;&ensp;&ensp;&ensp;数据集、相关模型下载：
 
@@ -87,16 +87,22 @@ cd dgu/scripts && python run_build_data.py task_name
 
 windows环境下：
 cd dgu\scripts && python run_build_data.py task_name
+```
 
 参数说明：
+
 task_name: udc, swda, mrda, atis, dstc2,  选择5个数据集选项中用户需要生成的数据名
 
 各任务数据生成脚本描述：
+
 dgu/scripts/build_atis_dataset.py：将ATIS开源数据集转换成训练所需的意图识别（atis_intent）和槽位解析（atis_slot）训练数据
+
 dgu/scripts/build_dstc2_dataset.py：将DSTC2开源数据集转换成训练所需数据格式；
+
 dgu/scripts/build_mrda_dataset.py：将MRDA开源数据集转换成训练所需数据格式；
+
 dgu/scripts/build_swda_dataset.py：将SWDA开源数据集转换成训练所需数据格式；
-```
+
 
 &ensp;&ensp;&ensp;&ensp;根据脚本构造的训练数据格式说明：
 
