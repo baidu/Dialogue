@@ -30,7 +30,7 @@
 &ensp;&ensp;&ensp;&ensp;克隆代码库到本地
 
 ```
-git clone https://github.com/PaddlePaddle/models.git
+git clone https://github.com/baidu/Dialogue.git
 cd Dialogue/dgu
 ```
 
