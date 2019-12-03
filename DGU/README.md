@@ -190,7 +190,7 @@ task_type: train,predict, evaluate, inference, all, 选择5个参数选项中任
 1、如果为单卡训练（用户指定空闲的单卡）：
 export CUDA_VISIBLE_DEVICES=0 
 2、如果为多卡训练（用户指定空闲的多张卡）：
-export CUDA_VISIBLE_DEVICES=0, 1, 2, 3
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 ```
 
 #### 方式二： 执行训练相关的代码：
@@ -200,7 +200,7 @@ export FLAGS_sync_nccl_allreduce=0
 export FLAGS_eager_delete_tensor_gb=1  #开启显存优化
 
 export CUDA_VISIBLE_DEVICES=0  #GPU单卡训练
-#export CUDA_VISIBLE_DEVICES=0, 1, 2, 3  #GPU多卡训练
+#export CUDA_VISIBLE_DEVICES=0,1,2,3  #GPU多卡训练
 #export CUDA_VISIBLE_DEVICES=  #CPU训练
 
 if  [ ! "$CUDA_VISIBLE_DEVICES" ]
