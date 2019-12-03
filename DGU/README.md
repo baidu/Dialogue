@@ -95,7 +95,7 @@ task_name: udc, swda, mrda, atis, dstc2, 选择5个数据集选项中用户需�
 
 各任务数据生成脚本描述：
 
-- dgu/scripts/build_atis_dataset.py: 将ATIS开源数据集转换成训练所需的意图识别（atis_intent）和槽位解析（atis_slot）训练数据
+- dgu/scripts/build_atis_dataset.py: 将ATIS开源数据集转换成训练所需的意图识别（atis_intent）和槽位解析（atis_slot）训练数据；
 
 - dgu/scripts/build_dstc2_dataset.py: 将DSTC2开源数据集转换成训练所需数据格式；
 
