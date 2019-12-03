@@ -258,8 +258,8 @@ python -u main.py --task_name=atis_intent --use_cuda=false --do_train=true --in_
 ```
 bash run.sh task_name task_type
 参数说明: 
-task_name: udc, swda, mrda, atis_intent, atis_slot, dstc2,选择6个任务中任意一项；
-task_type: train, predict, evaluate, inference, all, 选择5个参数选项中任意一项(train: 只执行训练,predict: 只执行预测,evaluate: 只执行评估过程，依赖预测的结果，inference: 保存inference model,all: 顺序执行训练、预测、评估、保存inference model的过程)；
+task_name: udc, swda, mrda, atis_intent, atis_slot, dstc2, 选择6个任务中任意一项；
+task_type: train, predict, evaluate, inference, all, 选择5个参数选项中任意一项(train: 只执行训练，predict: 只执行预测，evaluate: 只执行评估过程，依赖预测的结果，inference: 保存inference model, all: 顺序执行训练、预测、评估、保存inference model的过程)；
 
 预测示例: bash run.sh atis_intent predict
 ```
@@ -473,7 +473,7 @@ dialogue_general_understanding模块，针对数据集开发了相关的模型�
 
 a、自定义数据 
 
-如用户目前有数据集为**task_name**， 则在**data/input/data**下定义**task_name**文件夹，将数据集存放进去；在**dgu/reader.py**中，新增自定义的数据处理的类，如**udc**数据集对应**UDCProcessor**;  在**train.py**内设置**task_name**和**processor**的对应关系(如**processors = {'udc'： reader.UDCProcessor}**).
+如用户目前有数据集为**task_name**，则在**data/input/data**下定义**task_name**文件夹，将数据集存放进去；在**dgu/reader.py**中，新增自定义的数据处理的类，如**udc**数据集对应**UDCProcessor**;  在**train.py**内设置**task_name**和**processor**的对应关系(如**processors = {'udc': reader.UDCProcessor}**).
 
 b、 自定义上层网络范式
 
