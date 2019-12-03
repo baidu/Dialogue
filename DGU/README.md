@@ -23,14 +23,14 @@
 - Python >= 2.7
 - cuda >= 9.0
 - cudnn >= 7.0
-- PaddlePaddle >= 1.6.0，请参考[安装指南](http：//www.paddlepaddle.org/#quick-start)进行安装， 由于模块内模型基于bert做finetuning， 训练速度较慢， 建议用户安装GPU版本PaddlePaddle进行训练。
+- PaddlePaddle >= 1.6.0，请参考[安装指南](http://www.paddlepaddle.org/#quick-start)进行安装， 由于模块内模型基于bert做finetuning， 训练速度较慢， 建议用户安装GPU版本PaddlePaddle进行训练。
 
 #### b. 下载代码
 
 克隆代码库到本地：
 
 ```shell
-git clone https：//github.com/baidu/Dialogue.git
+git clone https://github.com/baidu/Dialogue.git
 cd Dialogue/DGU
 ```
 
@@ -337,7 +337,7 @@ swda：使用acc指标来评估DA任务分类结果;
 效果上，6个任务公开数据集评测效果如下表所示：
 
 | task_name | udc | udc | udc | atis_slot | dstc2 | atis_intent | swda | mrda |
-| ：------ | ：------ | ：------ | ：------ | ：------| ：------ | ：------ | ：------ | ：------ |
+| :------ | :------ | :------ | :------ | :------| :------ | :------ | :------ | :------ |
 | 对话任务 | 匹配 | 匹配 | 匹配 | 槽位解析 | DST | 意图识别 | DA | DA |
 | 任务类型 | 分类 | 分类 | 分类 | 序列标注 | 多标签分类 | 分类 | 分类 | 分类 |
 | 任务名称 | udc | udc | udc| atis_slot | dstc2 | atis_intent | swda | mrda |
@@ -433,18 +433,18 @@ python -u main.py \
 支持PaddlePaddle官方提供的BERT及ERNIE相关模型作为预训练模型
 
 | Model | Layers | Hidden size | Heads |Parameters |
-| ：------| ：------： | ：------： |：------： |：------： |
-| [BERT-Base， Uncased](https：//bert-models.bj.bcebos.com/uncased_L-12_H-768_A-12.tar.gz) | 12 | 768 |12 |110M |
-| [BERT-Large， Uncased](https：//bert-models.bj.bcebos.com/uncased_L-24_H-1024_A-16.tar.gz) | 24 | 1024 |16 |340M |
-|[BERT-Base， Cased](https：//bert-models.bj.bcebos.com/cased_L-12_H-768_A-12.tar.gz)|12|768|12|110M|
-|[BERT-Large， Cased](https：//bert-models.bj.bcebos.com/cased_L-24_H-1024_A-16.tar.gz)|24|1024|16|340M|
-|[ERNIE， english](https：//ernie.bj.bcebos.com/ERNIE_en_1.0.tgz)|24|1024|16|3.8G|
+| :------| :------: | :------: |:------: |:------: |
+| [BERT-Base， Uncased](https://bert-models.bj.bcebos.com/uncased_L-12_H-768_A-12.tar.gz) | 12 | 768 |12 |110M |
+| [BERT-Large， Uncased](https://bert-models.bj.bcebos.com/uncased_L-24_H-1024_A-16.tar.gz) | 24 | 1024 |16 |340M |
+|[BERT-Base， Cased](https://bert-models.bj.bcebos.com/cased_L-12_H-768_A-12.tar.gz)|12|768|12|110M|
+|[BERT-Large， Cased](https://bert-models.bj.bcebos.com/cased_L-24_H-1024_A-16.tar.gz)|24|1024|16|340M|
+|[ERNIE， english](https://ernie.bj.bcebos.com/ERNIE_en_1.0.tgz)|24|1024|16|3.8G|
 
 
 ### 服务部署
 模块内提供已训练好6个对话任务的inference_model模型，用户可根据自身业务情况进行下载使用。
 #### 服务器部署
-请参考PaddlePaddle官方提供的[服务器端部署](https：//www.paddlepaddle.org.cn/documentation/docs/zh/1.5/advanced_usage/deploy/inference/index_cn.html)文档进行部署上线。
+请参考PaddlePaddle官方提供的[服务器端部署](https://www.paddlepaddle.org.cn/documentation/docs/zh/1.5/advanced_usage/deploy/inference/index_cn.html)文档进行部署上线。
 
 
 ## 进阶使用
@@ -485,17 +485,17 @@ c、自定义预测封装接口
 
 ## 参考文献
 
-- Harshit Kumar， Arvind Agarwal， Riddhiman Dasgupta，Sachindra Joshi， and Arun Kumar. 2017.   Dia-logue act sequence labeling using hierarchical en-coder with crf.arXiv preprint arXiv：1709.04250.
+- Harshit Kumar， Arvind Agarwal， Riddhiman Dasgupta，Sachindra Joshi， and Arun Kumar. 2017.   Dia-logue act sequence labeling using hierarchical en-coder with crf.arXiv preprint arXiv: 1709.04250.
 - Changliang Li， Liang Li， and Ji Qi. 2018.  A self-attentive model with gate mechanism for spoken lan-guage understanding.  InProceedings of the 2018Conference on Empirical Methods in Natural Lan-guage Processing， pages 3824–3833.
-- Ryan Lowe， Nissan Pow， Iulian Serban， and JoellePineau. 2015. The ubuntu dialogue corpus： A largedataset for research in unstructured multi-turn dia-logue systems.arXiv preprint arXiv：1506.08909.
+- Ryan Lowe， Nissan Pow， Iulian Serban， and JoellePineau. 2015. The ubuntu dialogue corpus: A largedataset for research in unstructured multi-turn dia-logue systems.arXiv preprint arXiv: 1506.08909.
 - Tomas Mikolov， Ilya Sutskever， Kai Chen， Greg S Cor-rado， and Jeff Dean. 2013. Distributed representa-tions of words and phrases and their compositional-ity. InAdvances in neural information processingsystems， pages 3111–3119.
 - Hiroki Ouchi and Yuta Tsuboi. 2016. Addressee andresponse selection for multi-party conversation. InProceedings of the 2016 Conference on EmpiricalMethods in Natural Language Processing， pages2133–2143.
 - Elizabeth Shriberg， Raj Dhillon， Sonali Bhagat， JeremyAng， and Hannah Carvey. 2004. The icsi meetingrecorder dialog act (mrda) corpus. Technical report，INTERNATIONAL COMPUTER SCIENCE INSTBERKELEY CA.
-- Andreas Stolcke， Klaus Ries， Noah Coccaro， Eliza-beth Shriberg， Rebecca Bates， Daniel Jurafsky， PaulTaylor， Rachel Martin， Carol Van Ess-Dykema， andMarie Meteer. 2000. Dialogue act modeling for au-tomatic tagging and recognition of conversationalspeech.Computational linguistics， 26(3)：339–373.
-- Ye-Yi Wang， Li Deng， and Alex Acero. 2005.  Spo-ken language understanding.IEEE Signal Process-ing Magazine， 22(5)：16–31.Jason Williams， Antoine Raux， Deepak Ramachan-dran， and Alan Black. 2013. The dialog state tracking challenge.  InProceedings of the SIGDIAL 2013Conference， pages 404–413.
-- Yonghui Wu， Mike Schuster， Zhifeng Chen， Quoc VLe，  Mohammad Norouzi，  Wolfgang Macherey，Maxim  Krikun，  Yuan  Cao，  Qin  Gao，  KlausMacherey，  et al. 2016.   Google’s neural ma-chine translation system： Bridging the gap betweenhuman and machine translation.arXiv preprintarXiv：1609.08144.Kaisheng 
+- Andreas Stolcke， Klaus Ries， Noah Coccaro， Eliza-beth Shriberg， Rebecca Bates， Daniel Jurafsky， PaulTaylor， Rachel Martin， Carol Van Ess-Dykema， andMarie Meteer. 2000. Dialogue act modeling for au-tomatic tagging and recognition of conversationalspeech.Computational linguistics， 26(3):339–373.
+- Ye-Yi Wang， Li Deng， and Alex Acero. 2005.  Spo-ken language understanding.IEEE Signal Process-ing Magazine， 22(5):16–31.Jason Williams， Antoine Raux， Deepak Ramachan-dran， and Alan Black. 2013. The dialog state tracking challenge.  InProceedings of the SIGDIAL 2013Conference， pages 404–413.
+- Yonghui Wu， Mike Schuster， Zhifeng Chen， Quoc VLe，  Mohammad Norouzi，  Wolfgang Macherey，Maxim  Krikun，  Yuan  Cao，  Qin  Gao，  KlausMacherey，  et al. 2016.   Google’s neural ma-chine translation system: Bridging the gap betweenhuman and machine translation.arXiv preprintarXiv: 1609.08144.Kaisheng 
 - Yao， Geoffrey Zweig， Mei-Yuh Hwang，Yangyang Shi， and Dong Yu. 2013. Recurrent neu-ral networks for language understanding. InInter-speech， pages 2524–2528.
-- Xiangyang Zhou， Lu Li， Daxiang Dong， Yi Liu， YingChen， Wayne Xin Zhao， Dianhai Yu， and Hua Wu.2018.  Multi-turn response selection for chatbotswith deep attention matching network. InProceed-ings of the 56th Annual Meeting of the Associationfor Computational Linguistics (Volume 1： Long Pa-pers)， volume 1， pages 1118–1127.
+- Xiangyang Zhou， Lu Li， Daxiang Dong， Yi Liu， YingChen， Wayne Xin Zhao， Dianhai Yu， and Hua Wu.2018.  Multi-turn response selection for chatbotswith deep attention matching network. InProceed-ings of the 56th Annual Meeting of the Associationfor Computational Linguistics (Volume 1: Long Pa-pers)， volume 1， pages 1118–1127.
 - Su Zhu and Kai Yu. 2017.  Encoder-decoder withfocus-mechanism for sequence labelling based spo-ken language understanding. In2017 IEEE Interna-tional Conference on Acoustics， Speech and SignalProcessing (ICASSP)， pages 5675–5679. IEEE.
 - Jason Williams， Antoine Raux， Deepak Ramachan-dran， and Alan Black. 2013. The dialog state track-ing challenge. InProceedings of the SIGDIAL 2013Conference， pages 404–413.
 
