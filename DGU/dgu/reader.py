@@ -23,7 +23,7 @@ import numpy as np
 from dgu import tokenization
 from dgu.batching import prepare_batch_data
 
-if sys.version.info.major == 2:
+if sys.version[0] == '2':
     reload(sys)
 else:
     import importlib
