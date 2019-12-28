@@ -23,7 +23,11 @@ import numpy as np
 from dgu import tokenization
 from dgu.batching import prepare_batch_data
 
-reload(sys)
+if sys.version.info.major == 2:
+    reload(sys)
+else:
+    import importlib
+    importlib.reload(sys)
 sys.setdefaultencoding('utf-8')
 
 class DataProcessor(object):
