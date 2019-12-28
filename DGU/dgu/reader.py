@@ -23,8 +23,12 @@ import numpy as np
 from dgu import tokenization
 from dgu.batching import prepare_batch_data
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+if sys.version[0] == '2':
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+else:
+    import importlib
+    importlib.reload(sys)
 
 class DataProcessor(object):
     """Base class for data converters for sequence classification data sets."""
