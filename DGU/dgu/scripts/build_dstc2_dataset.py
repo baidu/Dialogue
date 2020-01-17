@@ -103,11 +103,11 @@ class DSTC2(object):
                 user = label_turn['transcription']
                 if not labels_ids.strip(): 
                     labels_ids = self.map_tag_dict['none']
-                out = "%s\t%s\1%s\t%s" % (session_id, mach, user, labels_ids)
+                out = "%s\t%s\1%s\t%s" % (session_id.encode('utf-8'), mach.encode('utf-8'), user.encode('utf-8'), labels_ids)
                 user_asr = log_turn['input']['live']['asr-hyps'][0]['asr-hyp'].strip()
-                out_asr = "%s\t%s\1%s\t%s" % (session_id, mach, user_asr, labels_ids)
-                fw.write(u"%s\n" % out.encode('utf8'))
-                fw_asr.write(u"%s\n" % out_asr.encode('utf8'))
+                out_asr = "%s\t%s\1%s\t%s" % (session_id.encode('utf-8'), mach.encode('utf-8'), user_asr.encode('utf-8'), labels_ids)
+                fw.write(u"%s\n" % out)
+                fw_asr.write(u"%s\n" % out_asr)
 
     def get_train_dataset(self): 
         """
