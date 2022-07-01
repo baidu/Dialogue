@@ -104,9 +104,7 @@ class DataProcessor(object):
             cur_len = 0
             lod = [cur_len]
             seq_lens = [len(ids) for ids in data_ids]
-            for l in seq_lens: 
-                cur_len += l
-                lod.append(cur_len)
+            lod = np.sumsum(seq_lens)
             flattened_data = np.concatenate(data_ids, axis=0).astype("int64")
             flattened_data = flattened_data.reshape([len(flattened_data), 1])
             res = fluid.LoDTensor()
